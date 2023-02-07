@@ -1,5 +1,6 @@
 import React from "react";
 import cardsimg from "../images/cardsimg.jpg";
+import { Link } from "react-router-dom";
 
 function Cards() {
   return (
@@ -15,9 +16,9 @@ function Cards() {
               
               <h3 className="first-txt">Domain Courses</h3>
               <p className="first-para"> Read all about our domain courses</p>
-              <button type="button" className="card-btn btn btn-dark btn-lg">
+              <Link to="/domain">  <button type="button" className="card-btn btn btn-dark btn-lg">
                 Explore
-              </button>
+              </button></Link>
             </div>
           </div>
         </div>
