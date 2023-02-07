@@ -1,0 +1,282 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.text-center {
+  height: 100%;
+}
+
+/*******************Login*******************/
+.text-center {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.top{
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.middle{
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/*******************************Header******************************/
+
+.header{
+  margin-top: 2px;
+}
+.header-image{
+  margin:2px 20px;
+  width:60px;
+
+}
+.header-dropdown{
+
+  display: inline-block;
+  
+  margin-right: 20px;
+
+}
+.teacher{
+  display: inline-block;
+  color: black;
+}
+.header-links{
+  color: black;
+  display: inline-block;
+  position:relative;
+  left: 900px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+
+.dropdown_item {
+  display: none;
+  position: absolute;
+  background-color: lightgray;
+  min-width: 100%;
+
+}
+
+.dropdown_item a {
+  display: block;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  border-bottom:1px solid white;
+}
+
+.dropdown:hover .dropdown_item {
+  display: block;
+}
+
+.dropdown_item a:hover {
+   background-color: #f8f8ff
+  }
+  hr.line1 {
+    border-color: black;
+    
+  }
+
+  
+  /********************Home.js******************/
+
+  
+
+
+    button.newbtn{
+      justify-items: center;
+      font-size: 10px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin: 30px;
+      height: 30px;
+      width: 300px;
+      border-radius: 15px;
+      border: 2px solid rgb(214, 9, 9);
+      color: rgb(255, 255, 255);
+      background-color: rgb(214, 9, 9);
+
+    }
+    button.newbtn:hover{
+      cursor: pointer;
+      transform: scale(1.25);
+      background-color: #0a0000;
+      color: #f5f5f5;
+    }
+
+    
+       /* Card ****************************************************/
+.first-txt {
+  position: absolute;
+  top: 50px;
+  left: 55px;
+  color: #f8f8ff;
+}
+.first-para{
+  position: absolute;
+  top: 80px;
+  left: 27px;
+  
+}
+.card-btn{
+  position: absolute;
+  bottom: 30px;
+  left:100px;
+  background-color:grey;
+  color: black;
+  size: 3px;
+}
+
+
+/* .form-inline{
+  position:relative;
+  left: 1400px;
+} */
+.login{
+  padding-top:10px;
+  padding-bottom:5px;
+}
+
+  .icon-size{
+    margin-left: 200px;
+    font-size: 50px;
+  }
+
+
+  .carousel-inner{
+    height: 100% !important;
+    width:  100% !important;
+    border: 1px solid black;
+    
+}
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 280px;
+  height: 200px;
+  perspective: 1000px;
+  margin: 50px 20px;
+  
+ 
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  
+
+}
+/******/
+
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #e7bc2e;
+  color: white;
+  transform: rotateY(180deg);
+}
+.techer{
+  position: relative;
+  display: inline-block;
+}
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+} 
+
+/****************footer******************/
+.footer-div{
+  text-align: center;
+}
+.footer-img-div{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.footer{
+  padding-top:10px;
+}
+.linehr{
+  width: 70%;
+  padding-left: 20px;
+  
+}
+
