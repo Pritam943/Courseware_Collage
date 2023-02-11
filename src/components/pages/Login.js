@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/logo.jpg"
+import logo from "../images/UserIconLogin.jpg"
 
 function Login() {
   return (
@@ -15,9 +15,11 @@ function Login() {
 						<div className="card-body">
 							<h4 className="card-title">Login</h4>
 							<form method="POST" className="my-login-validation" novalidate="">
+							
 								<div className="form-group">
 									<label for="email">E-Mail Address</label>
-									<input id="email" type="email" className="form-control" name="email" value="" required autofocus/>
+									<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address" required autofocus/>
+									
 									<div className="invalid-feedback">
 										Email is invalid
 									</div>
@@ -25,11 +27,11 @@ function Login() {
 
 								<div className="form-group">
 									<label for="password">Password
-										<a href="/Forgot.js" className="float-right">
+										<a href="/Forgot.js" className="float-end">
 											Forgot Password?
 										</a>
 									</label>
-									<input id="password" type="password" className="form-control" name="password" required data-eye/>
+									<input id="password" type="password" className="form-control" name="password" placeholder="Password"  required data-eye/>
 								    <div className="invalid-feedback">
 								    	Password is required
 							    	</div>

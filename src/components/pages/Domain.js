@@ -9,10 +9,10 @@ function domain() {
         <div className="container">
           <div className="d-sm-flex align-item-center">
             <div>
-              <h1 className="headdomain pt-5">
+              <h2 className="headdomain pt-5">
               Discover the world of possibility with
 Centurion University Skill Courses!
-              </h1>
+              </h2>
               <button
                 type="button"
                 className="btn btn-danger"
@@ -33,10 +33,10 @@ Centurion University Skill Courses!
           </div>
         </div>
       </section>
-      <section className="bg-danger text-light p-5">
+      <section className="bg-danger text-light p-3">
         <div className="container">
-          <div className="d-md-flex justify-content-between align-item-center">
-            <h3 className="b-3 mb-md-0">
+          <div className="d-md-flex justify-content-between align-item-center ">
+            <h3 className="b-3 mb-md-0 ">
               Skill Track : institutional model with industry, Academia,
               Government & Social entrepreneurship
             </h3>

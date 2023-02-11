@@ -44,6 +44,8 @@ $(function() {
 				padding: '2px 7px',
 				fontSize: 12,
 				cursor: 'pointer',
+				background: '#e63600',
+				border: '#000000'
 		}));
 
 		$this.after($("<input/>", {
