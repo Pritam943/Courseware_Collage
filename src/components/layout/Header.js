@@ -11,15 +11,18 @@ function Header() {
     />
     <div className="header-links" >
     <div className="header-dropdown dropdown">
-      <span>Academic Schema</span>
+      <span>ACADEMIC SCHEMA</span>
       <div className="dropdown_item">
         <a href="/">Programme Structure</a>
+        <a href="/">Assessment Criterion</a>
+        <a href="/">Core Courses</a>
         <a href="/">Domain (Electives) Courses</a>
         <a href="/">Skill (Elective) Courses</a>
+        <a href="/">Diploma Courses</a>
       </div>
     </div>
     <div className="teacher">
-      <span>| <a href="/">Teachers</a> </span>
+      <span>| <a href="/">TEACHERS</a> </span>
     </div>
     </div>
    

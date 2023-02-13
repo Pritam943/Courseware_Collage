@@ -9,13 +9,13 @@ function Slider() {
      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src={img2} class="d-block w-100" alt="..." width={800} height={500}/>
+      <img src={img2} class="d-block w-100" alt="..." width={900} height={500}/>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src={img1} class="d-block w-100" alt="..." width={800} height={500}/>
+      <img src={img1} class="d-block w-100" alt="..." width={900} height={500}/>
     </div>
     <div class="carousel-item">
-      <img src={img3} class="d-block w-100" alt="..." width={800} height={500}/>
+      <img src={img3} class="d-block w-100" alt="..." width={900} height={500}/>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
