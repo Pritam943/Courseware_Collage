@@ -1,4 +1,5 @@
 import React from "react";
+import Boxes from "../layout/Boxes";
 import Header from "../layout/Header";
 
 function domain() {
@@ -15,11 +16,11 @@ Centurion University Skill Courses!
               </h2>
               <button
                 type="button"
-                className="btn btn-danger"
+                className="dmbtn"
                 style={{ padding: "5px",
                 fontSize: "10px"}}
                 >
-                Register Now...
+                Register Now
               </button>
             </div>
             <img
@@ -33,7 +34,7 @@ Centurion University Skill Courses!
           </div>
         </div>
       </section>
-      <section className="bg-danger text-light p-3">
+      <section className="bg text-light p-3">
         <div className="container">
           <div className="d-md-flex justify-content-between align-item-center ">
             <h3 className="b-3 mb-md-0 ">
@@ -43,6 +44,7 @@ Centurion University Skill Courses!
           </div>
         </div>
       </section>
+      <Boxes/>
     </div>
   );
 }
