@@ -12,7 +12,7 @@ function Boxes() {
   return (
     <div>
          <section class="p-5">
-      <div class="container">
+      <div class="container-box">
         <div class="row">
           <div class="col-md">
             <div class="card" >

@@ -46,7 +46,7 @@ function Login() {
 						</div>
 					</div>
 					<div className="footer">
-						Copyright &copy; 2017 &mdash; Your Company 
+						Copyright &copy; 2022 &mdash; CUTM 
 					</div>
 				</div>
 			</div>

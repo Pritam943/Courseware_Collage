@@ -1,7 +1,7 @@
 import React from "react";
 import cardsimg from "../images/cardsimg.jpg";
 import domainimg from "../images/domain.jpeg";
-import coreimg from "../images/core.jpeg";
+import coreimg from "../images/coreimg.jpeg";
 import { Link } from "react-router-dom";
 
 function Cards() {

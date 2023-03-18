@@ -2,7 +2,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- 
+   overflow-x: hidden;
 }
 
 code {
@@ -234,7 +234,18 @@ font-size: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+
   
+}
+
+@media only screen and (max-width: 800px){
+
+  .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
 
 .flip-card {
@@ -571,17 +582,18 @@ background-color: #ff3d00;
 }
 
 /* Boxes */
-.card{
+.container-box .card{
 
   width: 15rem;
-  height: 27rem;
+  height: 22rem;
 }
-.card-body{
-  height: 11rem;
+.container-box .card .card-body{
+  
+  height: 3rem;
   
  
 }
-.card-img-top{
+ .card-img-top{
   height: 160px;
 }
 
