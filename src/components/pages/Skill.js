@@ -1,7 +1,8 @@
 import React from "react";
+import Boxes from "../layout/Boxes";
 import Header from "../layout/Header";
 
-function domain() {
+function skill() {
   return (
     <div>
     <Header/>
@@ -37,14 +38,15 @@ Centurion University Skill Courses!
         <div className="container">
           <div className="d-md-flex justify-content-between align-item-center ">
             <h3 className="b-3 mb-md-0 ">
-               Track : institutional model with industry, Academia,
+              Skill Track : institutional model with industry, Academia,
               Government & Social entrepreneurship
             </h3>
           </div>
         </div>
       </section>
+      <Boxes/>
     </div>
   );
 }
 
-export default domain;
+export default skill;

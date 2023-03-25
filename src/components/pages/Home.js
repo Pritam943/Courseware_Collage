@@ -14,7 +14,7 @@ function Home() {
       <Slider />
 
       <section class="bg-dark text-light p-5">
-        <div class="container">
+        <div class="container1">
           <div class="d-md-flex justify-content-between align-item-center">
             <h4 class="b-3 mb-md-0">
               Courseware : institutional model with industry, Academia,

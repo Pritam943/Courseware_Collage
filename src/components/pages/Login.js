@@ -13,7 +13,7 @@ function Login() {
 					</div>
 					<div className="card fat">
 						<div className="card-body">
-							<h4 className="card-title">Login</h4>
+							<h4 className="card-title">Admin Login</h4>
 							<form method="POST" className="my-login-validation" novalidate="">
 							
 								<div className="form-group">

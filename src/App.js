@@ -6,18 +6,21 @@ import Navbar from "./components/layout/Navbar";
 import Login from "./components/pages/Login";
 import About from "./components/pages/About";
 import Domain from "./components/pages/Domain";
-
+import Skill from "./components/pages/Skill";
+import Core from "./components/pages/Core";
 
 
 function App() {
   return (
-  <BrowserRouter>
+  <BrowserRouter> 
   <Navbar/>
     <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path="/about" element={<About/>}/>
     <Route path="/login" element={<Login/>}/>
     <Route path="/domain" element={<Domain/>}/>
+    <Route path="/skill" element={<Skill/>}/>
+    <Route path="/core" element={<Core/>}/>
     </Routes>
   </BrowserRouter>
   );
