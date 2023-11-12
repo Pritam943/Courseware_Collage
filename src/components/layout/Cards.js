@@ -1,5 +1,4 @@
 import React from "react";
-import cardsimg from "../images/cardsimg.jpg";
 import domainimg from "../images/domimg.png";
 import skillimg from "../images/skillimg.png";
 import coreimg from "../images/corimg.png";
@@ -16,12 +15,11 @@ function Cards() {
           <div className="flip-card-inner">
             <div className="flip-card-front">
               <img src={domainimg} className="card-img" alt="Avatar" height={200} width={280} />
-              <h4 className="first-txt"></h4>
             </div>
             <div className="flip-card-back">
               
               <h4 className="first-txt">Domain Courses</h4>
-              <p className="first-para"> Read all about our domain courses</p>
+              <p className="first-para">Domain Courses Details</p>
               <Link to="/domain">  <button type="button" className="card-btn btn btn-dark btn-lg">
                 Explore
               </button></Link>
@@ -32,11 +30,10 @@ function Cards() {
           <div className="flip-card-inner">
             <div className="flip-card-front">
               <img src={coreimg} className="card-img" alt="Avatar" height={200} width={280} />
-              <h4 className="first-txt"></h4>
             </div>
             <div className="flip-card-back">
-             <h4 className="first-txt">Core Courses</h4>
-              <p className="first-para"> Read all about our core courses</p>
+             <h4 className="first-txt" style={{left:40}}>Core Courses</h4>
+              <p className="first-para">Core Courses Details</p>
               <Link to="/core"><button type="button" className="card-btn btn btn-dark btn-lg">
                 Explore
               </button></Link>
@@ -47,11 +44,10 @@ function Cards() {
           <div className="flip-card-inner">
             <div className="flip-card-front">
               <img src={skillimg} className="card-img" alt="Avatar" height={200} width={280} />
-              <h4 className="first-txt "></h4>
             </div>
             <div className="flip-card-back">
               <h4 className="first-txt">Skill Courses</h4>
-              <p className="first-para"> Read all about our skill courses</p>
+              <p className="first-para">Skill Courses Details</p>
               <Link to="/skill"> <button type="button" className="card-btn btn btn-dark btn-lg">
                 Explore
               </button></Link>
@@ -73,7 +69,7 @@ function Cards() {
             <div className="flip-card-back">
               
               <h4 className="first-txt">Programme Structure</h4>
-              <p className="first-para"> Read all about our domain courses</p>
+              <p className="first-para">Programms Details </p>
               <Link to="/domain">  <button type="button" className="card-btn btn btn-dark btn-lg">
                 Explore
               </button></Link>
@@ -84,11 +80,10 @@ function Cards() {
           <div className="flip-card-inner">
             <div className="flip-card-front">
               <img src={Assessmentimg} alt="Avatar"className="card-img" height={200} width={280} />
-              <h4 className="first-txt"></h4>
             </div>
             <div className="flip-card-back">
              <h4 className="first-txt">Assessment Criterion</h4>
-              <p className="first-para"> Read all about our core courses</p>
+              <p className="first-para">Assessments Details</p>
               <button type="button" className="card-btn btn btn-dark btn-lg">
                 Explore
               </button>
@@ -99,11 +94,10 @@ function Cards() {
           <div className="flip-card-inner">
             <div className="flip-card-front">
               <img src={otherimg} alt="Avatar"className="card-img"  height={200} width={280} />
-              <h4 className="first-txt "></h4>
             </div>
             <div className="flip-card-back">
               <h4 className="first-txt">Other Information</h4>
-              <p className="first-para"> Read all about our skill courses</p>
+              <p className="first-para">Check Informations</p>
               <button type="button" className="card-btn btn btn-dark btn-lg">
                 Explore
               </button>

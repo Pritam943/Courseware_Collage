@@ -1,12 +1,9 @@
-import React from "react";
-import Boxes from "../layout/Boxes";
-import Header from "../layout/Header";
+import React from 'react'
 
-function skill() {
+const Coursesbanner = () => {
   return (
     <div>
-    <Header/>
-      <section className="bg-dark text-light p-2  text-center">
+        <section className="bg-dark text-light p-2  text-center">
         <div className="container">
           <div className="d-sm-flex align-item-center">
             <div>
@@ -38,15 +35,14 @@ Centurion University Skill Courses!
         <div className="container1">
           <div className="d-md-flex justify-content-between align-item-center ">
             <h3 className="b-3 mb-md-0 ">
-              Skill Track : institutional model with industry, Academia,
+               Track : institutional model with industry, Academia,
               Government & Social entrepreneurship
             </h3>
           </div>
         </div>
       </section>
-      <Boxes/>
     </div>
-  );
+  )
 }
 
-export default skill;
+export default Coursesbanner

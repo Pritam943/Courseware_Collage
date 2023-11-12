@@ -1,32 +1,22 @@
 import React from "react";
 import Header from "../layout/Header";
+import Coursesbanner from "../layout/Coursesbanner";
+import Dboxes from "../layout/Dboxes";
+import "../style/domain.css";
 
 function core() {
   return (
     <div>
     <Header/>
-      <section className="bg-dark text-light p-2  text-center">
-        <div className="container">
-          <div className="d-sm-flex align-item-center">
-            <div>
-              <h2 className="headdomain pt-5">
-              Discover the world of possibility with
-Centurion University Core Courses!
-              </h2>
-              <button
-                type="button"
-                className="dmbtn"
-                style={{ padding: "5px",
-                fontSize: "10px"}}
-                >
-                Register Now
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      
+     <Coursesbanner/>
+     <div className="dcard">
+      <Dboxes/>
+      <Dboxes/>
+      <Dboxes/>
+      <Dboxes/>
+      <Dboxes/>
+      <Dboxes/>
+      </div>
     </div>
   );
 }

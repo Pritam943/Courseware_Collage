@@ -1,59 +1,38 @@
 import React from "react";
-import logo from "../images/UserIconLogin.jpg"
+import "../style/login.css";
 
-function Login() {
+const Login = () => {
   return (
-    <body className="my-login-page">
-	<section className="h-100">
-		<div className="container h-100">
-			<div className="row justify-content-md-center h-100">
-				<div className="card-wrapper">
-					<div className="brand">
-						<img src={logo}alt="logo"/>
-					</div>
-					<div className="card fat">
-						<div className="card-body">
-							<h4 className="card-title">Admin Login</h4>
-							<form method="POST" className="my-login-validation" novalidate="">
-							
-								<div className="form-group">
-									<label for="email">E-Mail Address</label>
-									<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address" required autofocus/>
-									
-									<div className="invalid-feedback">
-										Email is invalid
-									</div>
-								</div>
-
-								<div className="form-group">
-									<label for="password">Password
-										<a href="/Forgot.js" className="float-end">
-											Forgot Password?
-										</a>
-									</label>
-									<input id="password" type="password" className="form-control" name="password" placeholder="Password"  required data-eye/>
-								    <div className="invalid-feedback">
-								    	Password is required
-							    	</div>
-								</div>
-
-								<div className="form-group m-0">
-									<button type="submit" className="btn btn-primary btn-block">
-										Login
-									</button>
-								</div>
-							</form>
-						</div>
-					</div>
-					<div className="footer">
-						Copyright &copy; 2022 &mdash; CUTM 
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-  </body>
+    <div className="logbody">
+      <div className="wrapper">
+        <from action="">
+          <h1>Login</h1>
+          <div className="input-box">
+            <input type="text" placeholder="Username" required />
+            <i className="bx bxs-user-rectangle"></i>
+          </div>
+          <div className="input-box">
+            <input type="password" placeholder="password" required />
+            <i className="bx bxs-lock-open-alt"></i>
+          </div>
+          <div className="remember-forgot">
+            <label>
+              <input type="checkbox" /> Remember me
+            </label>
+            <a href="#"> Forgot password?</a>
+          </div>
+          <button type="submit" className="btn">
+            Login
+          </button>
+          <div className="register-link">
+            <p>
+              Don't have an account?<a href="#">Register</a>
+            </p>
+          </div>
+        </from>
+      </div>
+    </div>
   );
-}
+};
 
 export default Login;

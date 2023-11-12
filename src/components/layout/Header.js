@@ -1,6 +1,12 @@
 import React from 'react'
 
 function Header() {
+
+const homestyle = {
+  textDecoration: 'none',
+  color: 'black'
+}
+
   return (
     <div className="header">
     <img className="header-image"
@@ -22,7 +28,7 @@ function Header() {
       </div>
     </div>
     <div className="teacher">
-      <span>| <a href="/">TEACHERS</a> </span>
+      <span>| <a href="/" style={homestyle}>TEACHERS</a> </span>
     </div>
     </div>
    
