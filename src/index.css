@@ -618,18 +618,18 @@ Section div.container{
 
 
 /* Boxes */
-.container-box .card{
+.dbox .card{
 
   width: 15rem;
   height: 10rem;
 }
-.container-box .card .card-body{
+.dbox .card .card-body{
   
   height: 3rem;
   
  
 }
-.cardbtn{
+.dbox .cardbtn{
   position: absolute;
   bottom: 13px;
   background-color: #ff3d00;
@@ -640,15 +640,16 @@ Section div.container{
   padding: 6px 5px;
 }
 
-.cardbtn:hover{
+.dbox.cardbtn:hover{
 cursor: pointer;
 background-color: #0a0000;
 }
-
-.col-md{
+.dbox{
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+
 
 
 
