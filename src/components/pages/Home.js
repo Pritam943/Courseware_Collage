@@ -23,13 +23,13 @@ function Home() {
           </div>
         </div>
         <div id="hoverbtn">
-        <a href={DomainDownload} download="domainDownload" target='_blank'>
+        <a href={DomainDownload} download="domainDownload" target='_blank' rel="noopener noreferrer">
         <button className="newbtn" >
           {" "}
           Download Domain Repository <FiDownload />
         </button>
         </a>
-        <a href={SkillDownload} download="skillDownload" target='_blank'>
+        <a href={SkillDownload} download="skillDownload" target='_blank' rel="noopener noreferrer">
         <button className="newbtn">
           {" "}
           Download Skill Repository <FiDownload />

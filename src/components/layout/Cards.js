@@ -64,7 +64,7 @@ function Cards() {
           <div className="flip-card-inner">
             <div className="flip-card-front">
               <img src={programimg} className="card-img" alt="Avatar" height={200} width={280} />
-              <h4 className="first-txt"></h4>
+      
             </div>
             <div className="flip-card-back">
               
