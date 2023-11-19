@@ -8,6 +8,7 @@ import About from "./components/pages/About";
 import Domain from "./components/pages/Domain";
 import Skill from "./components/pages/Skill";
 import Core from "./components/pages/Core";
+import Teacher from "./components/pages/Teacher"
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
     <Route path="/domain" element={<Domain/>}/>
     <Route path="/skill" element={<Skill/>}/>
     <Route path="/core" element={<Core/>}/>
+    <Route path="/teacher" element={<Teacher/>}/>
+    
     </Routes>
   </BrowserRouter>
   );
