@@ -9,8 +9,11 @@ import Domain from "./components/pages/Domain";
 import Skill from "./components/pages/Skill";
 import Core from "./components/pages/Core";
 import Teacher from "./components/pages/Teacher"
-
-
+import Sidebar from "./components/Sidebar"
+import Courses from "./components/Courses"
+import Teachers from "./components/Teachers"
+import Profile from "./components/Profile"
+import Homee from "./components/Homee";
 function App() {
   return (
   <BrowserRouter> 
@@ -23,7 +26,11 @@ function App() {
     <Route path="/skill" element={<Skill/>}/>
     <Route path="/core" element={<Core/>}/>
     <Route path="/teacher" element={<Teacher/>}/>
-    
+    <Route path="/sidebar" element ={<Sidebar/>}/>
+    <Route path="/manageCourses" element ={<Courses/>}/>
+    <Route path="/manageTeachers" element ={<Teachers/>}/>
+    <Route path="/profile" element ={<Profile/>}/>
+    <Route path="/homee" element ={<Homee/>}/>
     </Routes>
   </BrowserRouter>
   );
