@@ -6,8 +6,8 @@ import '../style/Teacher.css'
 export default function Teacher() {
   return (
     <div>
-       <div className="Header">
-        <div className="Heading">
+       <div className="Headert">
+        <div className="Headingt">
          <body> <div className="rectangle-heading"><header> <h1>Teachers</h1> </header> </div></body>
             
            
@@ -15,13 +15,13 @@ export default function Teacher() {
         
 
        </div>
-        <div className="Home">
-           <div className="home"><body>
-            <a href="##">Home &gt; Teacher</a>  
+        <div className="Homet">
+           <div className="homet"><body>
+            <a href="##" id='tanchor'>Home &gt; Teacher</a>  
             </body></div> 
     
         </div>
-        <div className="cards">
+        <div className="cardst">
   <Teachercard name="Teacher 1" jobTitle="Mathematics" />
   <Teachercard name="Teacher 2" jobTitle="Science" />
   <Teachercard name="Teacher 3" jobTitle="English" />

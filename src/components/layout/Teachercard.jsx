@@ -5,10 +5,10 @@ import '../style/Teacher.css'
 export default function Teachercard(props) {
   return (
     
-      <div className="card">
-        <img className="card_img" src={avtar} alt={avtar} />
+      <div className="cardt">
+        <img className="card_imgt" src={avtar} alt={avtar} />
         
-        <div className="container">
+        <div className="containert">
           <h4><b>{props.name}</b></h4> 
           <p>{props.jobTitle}</p> 
           <button id="toggle">Read More</button>

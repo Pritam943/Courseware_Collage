@@ -1,5 +1,5 @@
 import React from 'react'
-import Teacher from '../pages/Teacher'
+
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -30,7 +30,7 @@ const homestyle = {
       </div>
     </div>
     <div className="teacher">
-      <span>| <a href="/" style={homestyle}><Link to="/teacher">TEACHER</Link></a> </span>
+      <span>| <a href="/" style={homestyle}><Link to="/Teacher">TEACHER</Link></a> </span>
     </div>
     </div>
    
