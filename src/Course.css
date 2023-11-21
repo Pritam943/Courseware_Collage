@@ -1,0 +1,58 @@
+/* Course.css */
+
+.course-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 40px;
+    margin-left: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .course-name {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .teacher-name {
+    color: #555;
+  }
+  
+  .subject-code {
+    color: #777;
+  }
+  
+  .course-credit {
+    color: #777;
+  }
+  
+  .course-objective {
+    margin: 10px 0;
+    color: #444;
+  }
+  
+  .syllabus-header {
+    margin-top: 15px;
+    color: #555;
+  }
+  
+  .syllabus-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .syllabus-item {
+    margin-bottom: 5px;
+    color: #666;
+  }
+  

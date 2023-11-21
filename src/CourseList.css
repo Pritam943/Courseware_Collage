@@ -1,0 +1,14 @@
+/* CourseList.css */
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .course-list {
+      justify-content: center;
+    }
+  }
+  

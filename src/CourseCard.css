@@ -1,0 +1,28 @@
+/* CourseCard.css */
+.course-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 16px;
+    width: auto; /* Increased width */
+    min-width: 400px;
+    background-color: rgb(242, 236, 247);
+    height: 150px; /* Increased height */
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+  }
+  .course-card:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .course-card h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.5em; /* Increased font size */
+  }
+  
+  .course-card p {
+    margin: 8px 0;
+    color: #555;
+  }
+  
