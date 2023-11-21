@@ -21,7 +21,8 @@
   }
   
   .card_imgt {
-    width: 10vw;
+    width: 13vw; 
+    height: 13vh;
   }
   
   #toggle{
@@ -31,8 +32,8 @@
     -ms-user-select: none;
     cursor: pointer;
     border: none;
-    padding: 8px;
-    font-size: 20px;
+    padding: 3px;
+    font-size: 16px;
     background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
     color: white;
     font-family: cursive;
@@ -71,4 +72,9 @@
           color: #ffffff; /* Text color */
           padding: 10px; /* Adjust the padding to your liking */
           text-align: center; /* Center-align the text */
+      }
+      .logot_imgt{
+        width: 6vw;
+        height: 11vh;
+        float: left;
       }
