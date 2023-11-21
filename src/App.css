@@ -37,6 +37,295 @@
   }
 }
 
-      
+.body{
+  background-color:white;
+  margin: 0;
+}
+
+.sidebar{
+  height: 100vh;
+  width: 250px;
+  background-color:#F3F2F5;
+  margin: 0px;
+  position: relative;
+}
+.sidebarList{
+  padding: 0;
+}
+.row{
+  margin: 0;
+  display: flex;
+  width: 100%;
+  /* height: ; */
+  /* justify-content: space-between; */
+  /* border: 1px solid black; */
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  /* color:black; */
+  color: black;
+  /* background-color: aquamarine; */
+  list-style: none;
+}
+#active{
+  background-color:#B9B4C7 ;
+}
+.sidebar .row:hover{
+  cursor: pointer;
+  background-color:#B9B4C7;
+   /* background-color:#626EE3; */
+}
+#icon{
+  flex:30%;
+  display: flex;
+  justify-content: center;
+}
+#title{
+  flex:70%;
+} 
+.pagee{
+  margin-bottom: 150px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 350px;
+  height: 400px;
+  width: 100vw;
+  margin: 0;
+  left: 250px;
+  /* top: 160px; */
+  /* top: 10px; */
+  /* bottom: 100px; */
+  position: relative;
+  top: 50px;
+  background-color:#011A32;
+  background-color: white;
+  /* top: 0; */
+  /* backdrop-filter: blur(115px); */
+  
+  /* background-color: blue; */
+}
+.coursess{
+  background-color: black;
+}
+.container{
+  text-align: center;
+}
+
+.nav{
+background-color: white;
+height: 100px;
+width: 80px;
+}
+
+.dp{
+  border-radius:50%;
+  height: 45px;
+  width: 45px;
+}
+.sidebar p{
+color: white;
+}
+.profileBar{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  background-color:#174873;
+  padding:3px 10px;
+  color: white;
+  /* justify-content:space-evenly; */
+  /* font: bolder; */
+}
+
+.table{
+  border-radius: 10%;
+}
+
+ thead{
+  background-color:grey;
+}
+th{
+  margin: 0px;
+}
+
+/* Apply styles to the form */
+/* Apply styles to the form */
+.formm {
+  position:absolute;
+  top: 50px;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-left: 300px;
+  /* margin-top: 100px; */
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form labels */
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* buttons */
+.buttons{
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 200px; */
+  margin-top: 50px;
+  margin-left:50px;
+  display: inline-block;
+
+  /* margin-left: 300px; */
+}
+.buttons p{
+  margin-left:32px;
+}
+/* Style the form inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style the form submit button */
+input[type="submit"] {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Add hover and focus effects to the submit button */
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background-color: #2980b9;
+}
+
+/* Style for form validation error messages */
+.error-message {
+  color: #e74c3c;
+  margin-top: 5px;
+}
+
+/* Style a success message */
+.success-message {
+  color: #2ecc71;
+  margin-top: 5px;
+}
+
+/* admin profile page  */
+.profile-container {
+  max-width: 600px;
+  margin: 50px auto;
+  margin-left:150px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profilePara{
+  padding: 10px 5px;
+}
+
+.profile-header {
+  text-align: center;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile-details {
+  margin-top: 20px;
+}
+
+h1, h2, p {
+  margin: 0;
+  color: #333;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+/* profileAdmin***************** */
+.courses-dashboard-container {
+  max-width: 800px;
+  margin: 50px auto;
+  margin-left: 200px;
+  padding: 20px;
+  position: relative;
+  right: 150px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.courses-list {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+button {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.add-course button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+}
+
+.add-course button:hover {
+  background-color: #45a049;
+}
+
+
     
    

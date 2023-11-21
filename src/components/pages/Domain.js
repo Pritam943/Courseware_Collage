@@ -6,7 +6,7 @@ import Coursesbanner from "../layout/Coursesbanner";
 import Footer from "../layout/Footer";
 import { readAll } from "../../services/course.service";
 
-function domain() {
+function Domain() {
 
   const [boxes, setBoxes] = useState([]);
 
@@ -38,4 +38,4 @@ function domain() {
   );
 }
 
-export default domain;
+export default Domain;
