@@ -92,12 +92,14 @@
   width: 100vw;
   margin: 0;
   left: 250px;
-  top: 160px;
-  bottom: 50px;
+  /* top: 160px; */
+  /* top: 10px; */
+  /* bottom: 100px; */
   position: relative;
+  top: 50px;
   background-color:#011A32;
   background-color: white;
-  top: 0;
+  /* top: 0; */
   /* backdrop-filter: blur(115px); */
   
   /* background-color: blue; */
@@ -147,7 +149,7 @@ th{
 
 /* Apply styles to the form */
 /* Apply styles to the form */
-form {
+.formm {
   position:absolute;
   top: 50px;
   max-width: 300px;

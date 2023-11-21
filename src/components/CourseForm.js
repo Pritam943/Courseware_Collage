@@ -23,7 +23,7 @@ const CourseForm = ({ showComponent }) => {
   };
   if (showComponent) {
     return (
-        <form onSubmit={handleSubmit}>
+        <form className='formm'onSubmit={handleSubmit}>
           <label>
             Name:
             <input
