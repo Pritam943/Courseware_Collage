@@ -7,6 +7,7 @@ import otherimg from "../images/otherimg.png";
 import Assessmentimg from "../images/Assesmentimg.png"
 import { Link } from "react-router-dom";
 
+
 function Cards() {
   return (
     <div>
@@ -70,7 +71,7 @@ function Cards() {
               
               <h4 className="first-txt">Programme Structure</h4>
               <p className="first-para">Programms Details </p>
-              <Link to="/domain">  <button type="button" className="card-btn btn btn-dark btn-lg">
+              <Link to="/programm">  <button type="button" className="card-btn btn btn-dark btn-lg">
                 Explore
               </button></Link>
             </div>
@@ -98,9 +99,9 @@ function Cards() {
             <div className="flip-card-back">
               <h4 className="first-txt">Other Information</h4>
               <p className="first-para">Check Informations</p>
-              <button type="button" className="card-btn btn btn-dark btn-lg">
-                Explore
-              </button>
+              <Link to="/other"><button type="button" className="card-btn btn btn-dark btn-lg">
+              Explore
+              </button></Link>
             </div>
           </div>
         </div>

@@ -12,10 +12,10 @@ function About() {
     </div>
     <div className="about-container">
       
-    <div className="imagee-container"> <div><img className="logott.png" src={logott} alt={logott} /> </div> </div>
+    <div className="imagee-container"> <div><img className="logott" src={logott} alt={logott} /> </div> </div>
     
-    <div className="textt-container"><h1>About us</h1>
-          <p>
+    <div className="textt-container"><h2>About us</h2>
+          <p className='aboutpara'>
           Courseware refers to educational materials that are designed for use in a specific course or educational program.
            These materials can take various forms, including textbooks, online modules, software applications, and multimedia presentations.
            The goal of courseware is to facilitate teaching and learning, providing students with the necessary resources to understand and engage with course content.

@@ -15,11 +15,6 @@ const Login = () => {
             <input type="password" placeholder="password" required />
             <i className="bx bxs-lock-open-alt"></i>
           </div>
-          <div className="remember-forgot">
-            <label>
-              <input type="checkbox" /> Remember me
-            </label>
-          </div>
           <button type="submit" className="btn">
             Login
           </button>

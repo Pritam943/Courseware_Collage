@@ -1,8 +1,8 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+} */
 .wrapperr{
     position: relative;
     display: flex;
@@ -25,21 +25,29 @@
 }
 .about-container{
     width: 85%;
-    min-height: 80vh;
+    min-height: 70vh;
     position: absolute;
     background-color: white;
     box-shadow: 24px 24px 30px #6d8dad;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 40px;
+    padding: 10px 20px;
     border-radius: 5px;
 }
 .imagee-container{
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+}
+.logott{
+     height: 50vh;
+}
+
+.aboutpara{
+    font-size: 15px;
+}
     .textt-container{
         flex: 1;
         display: flex;
@@ -60,6 +68,7 @@
             color: white;
             border-radius: 5px;
             transition: .3s all ease;
+            font-size: 10px;
         }      
         .textt-container a:hover{
             background-color: transparent;
