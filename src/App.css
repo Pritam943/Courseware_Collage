@@ -84,14 +84,11 @@
   flex:70%;
 } 
 .pagee{
-  margin-bottom: 150px;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-top: 350px;
-  height: 400px;
+  
+  height: 60vh;
   width: 100vw;
   margin: 0;
-  left: 250px;
+  left: 20px;
   /* top: 160px; */
   /* top: 10px; */
   /* bottom: 100px; */
@@ -227,7 +224,7 @@ input[type="submit"]:focus {
 
 /* admin profile page  */
 .profile-container {
-  max-width: 600px;
+  max-width: 691px;
   margin: 50px auto;
   margin-left:150px;
   background-color: #fff;

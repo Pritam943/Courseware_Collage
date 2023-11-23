@@ -13,20 +13,20 @@ export const SidebarData=[
     {
         icon:<HomeIcon/>,
         title:"Home",
-        link:"/homee"
+        link:"/dashboard/"
     }, {
         icon:<ManageT/>,
         title:"Manage Teachers",
-        link:"/manageTeachers"
+        link:"/dashboard/manageTeachers"
     }, {
         icon:<LibraryBooksIcon/>,
         title:"Manage Courses",
-        link:"/manageCourses"
+        link:"/dashboard/manageCourses"
     },
     {
         icon:<Acnt/>,
         title:"My Profile",
-        link:"/profile"
+        link:"/dashboard/profile"
     }
 
 ]

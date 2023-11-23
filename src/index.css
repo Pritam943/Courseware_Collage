@@ -182,7 +182,7 @@ font-size: 10px;
     }
 
     
-       /* Card ****************************************************/
+       /****************** Cards ****************************************************/
 .first-txt {
   margin-top: 40px;
   padding-right: 100px;
@@ -645,6 +645,17 @@ Section div.container{
 
   width: 15rem;
   height: 10rem;
+
+}
+.card{
+
+  width: 15rem;
+  height: 12rem;
+
+}
+.col-md{
+  width: 100px;
+
 }
 .dbox .card .card-body{
   
@@ -652,7 +663,8 @@ Section div.container{
   
  
 }
-.dbox .cardbtn{
+
+ .cardbtn{
   position: absolute;
   bottom: 13px;
   background-color: #ff3d00;
@@ -663,7 +675,7 @@ Section div.container{
   padding: 6px 5px;
 }
 
-.dbox.cardbtn:hover{
+.cardbtn:hover {
 cursor: pointer;
 background-color: #0a0000;
 }

@@ -5,8 +5,7 @@ import agrivoltaic from '../images/agrivoltaics.jpg';
 import markating from '../images/markating.jpg';
 import basketball from '../images/baskeetball.jpg';
 import bio from '../images/bio.jpg';
-import brew from '../images/brew.jpg';
-import apperal from '../images/apperal.jpg';
+
 
 function Boxes() {
   return (
@@ -76,26 +75,7 @@ function Boxes() {
               </div>
             </div>
           </div>
-          <div class="col-md">
-            <div class="card" >
-              <img src={brew} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Brew Master</h5>
-                <p class="card-text">This course is to make a world-class</p>
-                <button className="cardbtn">Read more</button>
-              </div>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="card" >
-              <img src={apperal} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Apparel Production</h5>
-                <p class="card-text">In the apparel industry the work is</p>
-                <button className="cardbtn">Read more</button>
-              </div>
-            </div>
-          </div>
+         
         </div>
       </div>
       </section>
